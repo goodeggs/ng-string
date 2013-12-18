@@ -12,10 +12,10 @@ function AwesomeCtrl($scope, string) {
 ... and a set of filters matching the string.js operations:
 ```html
 {{mystring = 'this is a string'}}
-{{mystring|camelize}} becomes 'thisIsAString'
-{{mystring|capitalize}} becomes 'This is a string'
-{{mystring|chompLeft:'string'}} becomes 'this is a '
-{{mystring|chompRight:'this'}} becomes ' is a string'
+{{mystring|stringCamelize}} becomes 'thisIsAString'
+{{mystring|stringCapitalize}} becomes 'This is a string'
+{{mystring|stringChompLeft:'string'}} becomes 'this is a '
+{{mystring|stringChompRight:'this'}} becomes ' is a string'
 
 etc, etc (more documentation at http://stringjs.com/)
 ```

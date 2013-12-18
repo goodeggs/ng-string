@@ -1,5 +1,4 @@
 describe 'string factory', ->
-
   it 'returns an instance of the string helper', (done) ->
     module 'string'
     inject (string) ->

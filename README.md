@@ -4,6 +4,8 @@ An [angularjs](http://angularjs.org/) factory and set of filters encapsulating t
 
 Comes with a factory called `string`:
 ```javascript
+myApp = angular.module('myapp', ['string']);
+
 function AwesomeCtrl($scope, string) {
   string('foobar').chompLeft('foo').s; // 'bar'
 }

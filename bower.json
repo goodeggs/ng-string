@@ -1,0 +1,13 @@
+{
+    "name": "ng-string",
+    "version": "0.1.0",
+    "main": "ng-string.min.js",
+    "ignore": [
+        "node_modules",
+        "package.json",
+        "README.md",
+        "src",
+        "spec"
+    ]
+}
+
